@@ -5,4 +5,4 @@
 
 
 
-print(list((filter(lambda x: all([int(y) % 2 == 0 for y in x]), [str(y) for y in range(1000, 3001)]))))
+print(list((filter(lambda x: all(int(y) % 2 == 0 for y in x), [str(y) for y in range(1000, 3001)]))))
